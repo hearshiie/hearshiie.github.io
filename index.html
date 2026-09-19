@@ -15,7 +15,18 @@
   <div class="nav-links" id="navLinks">
     <button data-target="home" class="active">Home</button>
     <button data-target="skills">Skills</button>
-    <button data-target="work">Work</button>
+
+    <div class="dropdown">
+      <button id="dropdownBtn" class="dropdown-toggle">
+        Work <span id="dropdownArrow" class="dropdown-arrow">▾</span>
+      </button>
+      <ul id="dropdownMenu" class="dropdown-menu">
+        <li><a href="#work">StudyBuddy AI</a></li>
+        <li><a href="https://github.com/hearshiie/Task-Manager-Web" target="_blank" rel="noopener">Task Manager Website</a></li>
+        <li><a href="https://github.com/hearshiie/MyPortfolio" target="_blank" rel="noopener">Personal Portfolio Website</a></li>
+      </ul>
+    </div>
+
     <button data-target="contact">Contact</button>
   </div>
 </nav>
